@@ -1,0 +1,22 @@
+# NeuroCast - Web & Machine Learning Dependencies
+# ==============================================================================
+# Concept & Design by K.S.Chandra 2026
+#
+# NOTE: NeuroCast is built with a ZERO-HARD-DEPENDENCY architecture.
+# The web server (server.py) and backend engine run with 100% functionality
+# out-of-the-box using only Python standard library.
+#
+# Installing these packages is OPTIONAL and unlocks extra acceleration:
+# ==============================================================================
+
+# Optional: Accelerated vector/matrix operations
+numpy>=1.22.0
+
+# Optional: Extended Excel (.xlsx/.xls) support
+pandas>=1.4.0
+
+# Optional: WSGI HTTP Server for traditional Linux production hosts (e.g. Heroku, Render)
+gunicorn>=21.2.0
+
+# Optional: PyTorch GPU/CUDA deep learning acceleration
+# torch>=2.0.0
